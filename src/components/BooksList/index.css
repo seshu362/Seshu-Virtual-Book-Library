@@ -1,0 +1,62 @@
+.list-book {
+  width: 300px;
+  margin: 15px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid blueviolet;
+}
+
+.title-heading {
+  font-family: 'Roboto';
+  color: #183b56;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.author {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #64748b;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.genre {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #64748b;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.rating {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #64748b;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.list-btn {
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+}

@@ -1,0 +1,87 @@
+.my-library-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.library-heading {
+  font-family: 'Roboto';
+  color: hsl(206, 56%, 22%);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.library-list {
+  display: flex;
+  padding-left: 0px;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.library-item {
+  border: 1px solid gray;
+  list-style-type: none;
+  margin-bottom: 20px;
+  width: 45%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+.library-name-cont {
+  display: flex;
+  flex-direction: column;
+}
+.no-books-message {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #64748b;
+  margin-bottom: 0px;
+  text-align: center;
+  margin-top: 70px;
+}
+.book-title {
+  font-family: 'Roboto';
+  color: hsl(206, 56%, 22%);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 25px;
+}
+.book-author {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 25px;
+  color: #64748b;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.remove-btn {
+  height: 40px;
+  width: 100px;
+  outline: none;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: -0.35555556416511536px;
+  color: #ffffff;
+  border-radius: 7px;
+  margin-top: 10px;
+  background-color: #183b56;
+  margin-right: 10px;
+  cursor: pointer;
+}

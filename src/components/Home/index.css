@@ -1,0 +1,36 @@
+.bg-container-home {
+
+}
+
+.ul-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 0px;
+  margin-top: 0px;
+  align-items: center;
+}
+
+.search-input {
+  height: 40px;
+  padding-left: 16px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  width: 80%;
+  border: 1px solid #64748b;
+  color: #64748b;
+  outline: none;
+  margin-top: 0px;
+  border-radius: 4px;
+  margin: 20px;
+  margin-left: 36px;
+}
+@media screen and (min-width: 768px) {
+  .search-input {
+    width: 50%;
+    margin-left: 25%;
+  }
+}

@@ -1,0 +1,42 @@
+.book-details-container {
+  border: 1px solid #183b56;
+  padding: 20px;
+}
+
+.bg-container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-details {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #64748b;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.add-btn {
+  height: 40px;
+  width: 100px;
+  outline: none;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: -0.35555556416511536px;
+  color: #ffffff;
+  border-radius: 7px;
+  margin-top: 10px;
+  background-color: #183b56;
+  margin-right: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
